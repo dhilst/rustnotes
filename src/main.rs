@@ -2,6 +2,7 @@
 #![allow(dead_code)]
 
 mod associated_types;
+mod lifetimes;
 
 use std::alloc::{GlobalAlloc, Layout};
 use std::cell::UnsafeCell;
